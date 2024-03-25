@@ -9,6 +9,6 @@ spec:
     version: green
   ports:
   - protocol: TCP
-    port: 8001
-    targetPort: 5173
+    port: 5173
+    targetPort: 8001
     nodePort: 30007
