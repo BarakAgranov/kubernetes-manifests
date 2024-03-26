@@ -18,7 +18,7 @@ spec:
       - name: backend
         image: agranov9/backend-todo:1.0.60
         ports:
-        - containerPort: 8080
+        - containerPort: 8085
         env:
         - name: MONGO_URL
           value: "mongodb://mongodb-service:27017"
