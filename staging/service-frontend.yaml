@@ -3,12 +3,11 @@ kind: Service
 metadata:
   name: frontend-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: frontend
     version: green
   ports:
-  - nodePort: 30007
     port: 5137
     protocol: TCP
     targetPort: 5173
