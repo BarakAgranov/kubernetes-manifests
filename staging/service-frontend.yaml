@@ -10,5 +10,6 @@ spec:
   ports:
   - nodePort: 30007
     port: 80
+    protocol: TCP
     targetPort: 5173
     
