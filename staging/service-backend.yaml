@@ -7,5 +7,5 @@ spec:
     app: backend
     version: green
   ports:
-  - port: 8080
-    targetPort: 8080
+  - port: 8085
+    targetPort: 8085
