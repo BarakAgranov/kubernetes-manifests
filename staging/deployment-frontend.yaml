@@ -18,7 +18,7 @@ spec:
       - name: frontend
         image: agranov9/frontend-todo:1.0.60
         ports:
-        - containerPort: 80
+        - containerPort: 5173
         env:
         - name: BACKEND_URL
           value: "http://backend-service:8085"
