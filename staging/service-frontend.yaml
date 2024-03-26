@@ -9,6 +9,6 @@ spec:
     version: green
   ports:
   - nodePort: 30007
-    port: 80
-    targetPort: 80
+    port: 5173
+    targetPort: 5173
     
