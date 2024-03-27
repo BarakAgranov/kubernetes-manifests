@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: agranov9/backend-todo:1.0.60
+        image: agranov9/backend-todo:latest
         ports:
         - containerPort: 8085
         env:
