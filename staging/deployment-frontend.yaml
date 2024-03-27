@@ -21,4 +21,4 @@ spec:
         - containerPort: 5173
         env:
         - name: BACKEND_URL
-          value: "http://backend-service:8085"
+          value: "http://backend-service:8000"
