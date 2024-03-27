@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: agranov9/frontend-todo:1.0.140
+        image: agranov9/frontend-todo:latest
         ports:
         - containerPort: 5173
         env:
