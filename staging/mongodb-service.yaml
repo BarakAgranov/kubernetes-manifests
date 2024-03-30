@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: mongodb-service
 spec:
+  type: LoadBalancer
   ports:
   - port: 27017
     targetPort: 27017
