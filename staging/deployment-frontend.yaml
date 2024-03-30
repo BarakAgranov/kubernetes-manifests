@@ -17,6 +17,7 @@ spec:
       containers:
       - name: frontend
         image: agranov9/frontend-todo:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5173
         env:
