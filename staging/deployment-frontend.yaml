@@ -22,4 +22,4 @@ spec:
         - containerPort: 5173
         env:
         - name: BACKEND_URL
-          value: "10.109.233.239:8000/todo"
+          value: "10.109.233.239:8000/todo/"
