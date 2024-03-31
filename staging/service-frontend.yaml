@@ -12,5 +12,6 @@ spec:
     port: 5173
     targetPort: 5173
     protocol: TCP
-  
+  externalIPs: 
+    - 34.139.4.8
     
