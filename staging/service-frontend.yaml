@@ -9,7 +9,8 @@ spec:
     version: green
   ports:
   - nodePort: 35173
-  - port: 5173
+    port: 5173
+    targetPort: 5173
     protocol: TCP
   
     
