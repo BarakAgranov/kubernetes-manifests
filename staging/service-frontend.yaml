@@ -8,7 +8,7 @@ spec:
     app: frontend
     version: green
   ports:
-  - nodePort: 35173
+  - nodePort: 31234
     port: 5173
     targetPort: 5173
     protocol: TCP
